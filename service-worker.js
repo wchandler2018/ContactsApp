@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/wchandler2018.github.io/ContactsApp/precache-manifest.97431709d7fa5f06979aa9cc19f361fc.js"
+  "/ContactsApp/precache-manifest.e9e65878baa09379a165f519fb91aa23.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/wchandler2018.github.io/ContactsApp/index.html", {
+workbox.routing.registerNavigationRoute("/ContactsApp/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
